@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "Indo-European": {
+      "type": "object",
+      "properties": {
+        "Indo-Iranian": {
+          "type": "object",
+          "properties": {
+            "Iranian": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "Indic": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "Iranian",
+            "Indic"
+          ]
+        },
+        "Baltic": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "Slavic": {
+          "type": "object",
+          "properties": {
+            "East Slavic": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "South Slavic": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "West Slavic": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "East Slavic",
+            "South Slavic",
+            "West Slavic"
+          ]
+        }
+      },
+      "required": [
+        "Indo-Iranian",
+        "Baltic",
+        "Slavic"
+      ]
+    }
+  },
+  "required": [
+    "Indo-European"
+  ]
+}
