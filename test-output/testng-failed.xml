@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.raf.Jsschema">
+      <class name="com.qa.raf.Auth">
         <methods>
-          <include name="schemaValidator"/>
+          <include name="Autho"/>
         </methods>
-      </class> <!-- com.qa.raf.Jsschema -->
+      </class> <!-- com.qa.raf.Auth -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

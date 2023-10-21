@@ -1,17 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-18T17:34:18 IST" name="Default suite" finished-at="2023-10-18T17:34:19 IST" duration-ms="309">
+  <suite started-at="2023-10-21T17:45:26 IST" name="Suite" finished-at="2023-10-21T17:45:30 IST" duration-ms="3725">
     <groups>
     </groups>
-    <test started-at="2023-10-18T17:34:18 IST" name="Default test" finished-at="2023-10-18T17:34:19 IST" duration-ms="309">
-      <class name="com.qa.raf.Serialanddes">
-        <test-method signature="convertToPOJO()[pri:0, instance:com.qa.raf.Serialanddes@659499f1]" started-at="2023-10-18T17:34:18 IST" name="convertToPOJO" finished-at="2023-10-18T17:34:19 IST" duration-ms="254" status="PASS">
+    <test started-at="2023-10-21T17:45:26 IST" name="Test" finished-at="2023-10-21T17:45:30 IST" duration-ms="3725">
+      <class name="com.qa.apichaining.UpdateUser">
+        <test-method signature="updateUserTest(org.testng.ITestContext)[pri:0, instance:com.qa.apichaining.UpdateUser@54e1c68b]" started-at="2023-10-21T17:45:29 IST" name="updateUserTest" finished-at="2023-10-21T17:45:29 IST" duration-ms="341" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@79207381]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- convertToPOJO -->
-      </class> <!-- com.qa.raf.Serialanddes -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- updateUserTest -->
+      </class> <!-- com.qa.apichaining.UpdateUser -->
+      <class name="com.qa.apichaining.DeleteUser">
+        <test-method signature="deleteUserTest(org.testng.ITestContext)[pri:0, instance:com.qa.apichaining.DeleteUser@53aac487]" started-at="2023-10-21T17:45:29 IST" name="deleteUserTest" finished-at="2023-10-21T17:45:30 IST" duration-ms="228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@79207381]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserTest -->
+      </class> <!-- com.qa.apichaining.DeleteUser -->
+      <class name="com.qa.apichaining.CreateUser">
+        <test-method signature="createUserTest(org.testng.ITestContext)[pri:0, instance:com.qa.apichaining.CreateUser@54a7079e]" started-at="2023-10-21T17:45:26 IST" name="createUserTest" finished-at="2023-10-21T17:45:28 IST" duration-ms="2544" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@79207381]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+      </class> <!-- com.qa.apichaining.CreateUser -->
+      <class name="com.qa.apichaining.GetUser">
+        <test-method signature="getUserTest(org.testng.ITestContext)[pri:0, instance:com.qa.apichaining.GetUser@72e5a8e]" started-at="2023-10-21T17:45:28 IST" name="getUserTest" finished-at="2023-10-21T17:45:29 IST" duration-ms="545" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@79207381]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserTest -->
+      </class> <!-- com.qa.apichaining.GetUser -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
